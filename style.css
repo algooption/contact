@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+   
+    background: linear-gradient(to top left,red,blue);
+}
+#heding{
+    margin-top: 5px;
+    text-align: center;
+    color:white;
+    /* background:rgb(6, 54, 28); */
+    height: 3.75rem;
+   position: sticky;
+ 
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+
+    background-color:#ffffffcc;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #112295;
+    z-index: 2;
+}
+.singup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+    text-align: center;
+}
+.singup-header p{
+    font-size: 0.9rem;
+    color: rgb(88, 77, 77);
+    text-align: center;
+
+}
+.singup-body{
+    margin: 20px 0;
+}
+.singup-body p{
+    margin: 10px 0;
+   
+}
+.singup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.singup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+
+}
+.cheek{
+   display: flex;
+ /* width: 100%; */
+   padding: 10px;
+   text-align: left;
+   border: 2px solid #cccc;
+   background-color: white;
+   font-size: 1rem;
+   border-radius: 4px;
+  
+   margin-top: 4px;
+}
+.singup-body p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.singup-body p input[type="submit"]:hover{
+    background-color: #2773a5;
+}
+
+.singup-footer p{
+    color: #555;
+    text-align: center;
+}
+
+.singup-footer p a{
+    color: #2773a5;
+    text-decoration: none;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33,#ffffffff);
+position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
+.outer_footer{
+    text-align: center;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   height: 3.75rem;
+   color: white;
+   /* background:rgb(156, 30, 30); */
+   margin-top: 5px;
+}
+@media only screen and (max-width:700px){
+    
+.inner-box{
+    width: 350px;
+    height: fit-content;
+  
+
+}
+.outer_footer{
+    text-align: center;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   height: 3.75rem;
+   color: white;
+   /* background:rgb(78, 26, 189); */
+  
+}
+.outer_footer h1{
+    margin-top: 5px;
+}
+
+}

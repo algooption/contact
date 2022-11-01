@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Suryakanta Ghosh">
+    <meta name="description" content="How to make responsive Contact form using html and css">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta property="og:url" content="shorturl.at/dvIQY"/>  
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="outer-box">
+<h1 id="heding">Login Form</h1>
+
+        <div class="inner-box">
+            <header class="singup-header">
+                <h1>Sing Up</h1>
+                <p>Just 30 second need</p>
+
+            </header>
+            <main class="singup-body">
+                <form action="#">
+                    <p>
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" placeholder="Suryakanta Ghosh" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="info@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="password">Enter Your Password</label>
+                        <input type="password" value="name@1234" id="password" placeholder="At least eight charecter"
+                            required>
+                           
+                            
+                    <p class="cheek">
+                        
+                        Show Password<input type="checkbox" onclick="myFunction()" style="width: 100px;">
+                    
+                    </p>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Creat Account">
+                    </p>
+
+                </form>
+            </main>
+            <footer class="singup-footer">
+                <p>Already have an Account <a href="#">Login</a></p>
+            </footer>
+
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+<footer class="outer_footer"><h1>@Suryakanta_Ghosh</h1></footer>
+    </div>
+ 
+  <script>
+    function myFunction() {
+        let x = document.getElementById("password");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+
+</body>
+
+</html>
