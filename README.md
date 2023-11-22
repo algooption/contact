@@ -1,3 +1,3 @@
 # contact
 Contact form using html &amp; css 
-Contact form link = https://codepowerpro.github.io/contact/
+Contact form link = https://algooption.github.io/contact/
